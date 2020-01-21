@@ -1,4 +1,4 @@
-'\c midterm;'
+-- \c midterm;
 
 -- Users
 INSERT INTO users

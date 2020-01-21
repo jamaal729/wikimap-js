@@ -1,4 +1,4 @@
-'\ c midterm;'
+-- \c midterm;
 DROP TABLE IF EXISTS users CASCADE;
 DROP TABLE IF EXISTS maps CASCADE;
 DROP TABLE IF EXISTS markers CASCADE;
