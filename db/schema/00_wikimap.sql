@@ -18,7 +18,6 @@ CREATE TABLE maps (
   description text,
   longitude double precision NOT NULL,
   latitude double precision NOT NULL,
-  location point NOT NULL,
   owner_id int REFERENCES users(id) ON DELETE CASCADE
 );
 
@@ -29,7 +28,6 @@ CREATE TABLE markers (
   image_url text,
   longitude double precision NOT NULL,
   latitude double precision NOT NULL,
-  location point NOT NULL,
   owner_id int REFERENCES users(id) ON DELETE CASCADE,
   map_id int REFERENCES maps(id) ON DELETE CASCADE
 );
